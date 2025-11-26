@@ -1,74 +1,94 @@
-# Image Filter Project – Python
+# ✨ Cipta Mulya | Image Processing App
 
-The Image Filter Project is a Python-based application designed to enable users to apply a variety of image filters to their images. This versatile tool allows users to select an image from their device, capture an image using their webcam, or utilize a default image. The application offers several filter options, including grayscale, inverted, blur, sketch, watercolor, and pencil sketch.
+![Python](https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python)
+![OpenCV](https://img.shields.io/badge/OpenCV-Computer%20Vision-green?style=for-the-badge&logo=opencv)
+![CustomTkinter](https://img.shields.io/badge/GUI-CustomTkinter-blueviolet?style=for-the-badge)
 
-## Features
+Aplikasi pemrosesan citra digital berbasis GUI modern yang dikembangkan menggunakan Python. Aplikasi ini menyediakan berbagai fitur manipulasi citra mulai dari operasi dasar, deteksi tepi, filtering domain frekuensi, hingga steganografi dan watermarking.
 
-**Image Selection:**  Users can choose to:
+![App Screenshot](assets/screenshot.png)
+*(Catatan: Ganti `assets/screenshot.png` dengan screenshot asli aplikasi kamu)*
 
-  *	<i>Select from Device:</i> Browse and open an image file from their computer.
-  * <i>Capture Image:</i> Use the webcam to capture a new image.
-  * <i>Default Image:</i> Use a pre-defined default image.
+## 📋 Fitur Utama
 
-**Filter Options:** Users can apply the following filters to their selected image:
+Aplikasi ini mencakup berbagai teknik Image Processing (Pengolahan Citra Digital) yang dikelompokkan dalam menu interaktif:
 
- * <i>Grayscale:</i> Convert the image to grayscale.
- * <i>Inverted:</i> Invert the colors of the image.
- * <i>Blur:</i> Apply a blur effect to the image.
- * <i>Sketch:</i> Convert the image to a pencil sketch.
- * <i>Watercolor:</i> Apply a watercolor effect to the image.
- * <i>Pencil Sketch:</i> Create a detailed pencil sketch of the image.
+### 1. Operasi Dasar (Basic Ops)
+- **Aritmatika:** Penjumlahan, Pengurangan, Perkalian, Pembagian citra.
+- **Boolean:** AND, OR, XOR, NOT.
+- **Geometri:** Translasi, Rotasi, Zooming, Flipping, Cropping (dengan koordinat).
+- **Konvolusi:** Kernel kustom 3x3 dengan preset (Blur, Sharpen, Edge).
 
-## Prerequisites
+### 2. Deteksi Tepi (Edge Detection)
+- **Gradient Orde 1:** Sobel, Prewitt, Robert, Compass (Kirsch).
+- **Gradient Orde 2:** Laplacian, Laplacian of Gaussian (LoG), Canny.
 
-To run this project, ensure that you have the following software installed:
+### 3. Perbaikan Citra (Enhancement)
+- **Kecerahan & Kontras:** Pengaturan slider interaktif (Alpha/Beta).
+- **Histogram Equalization:** Pemerataan histogram otomatis.
+- **Gamma Correction:** Koreksi pencahayaan non-linear.
+- **Sharpening:** Highpass Filter, Highboost Filtering.
 
-* Python 3.x
-* Pillow: `pip install pillow`
-* OpenCV: `pip install opencv-python`
-* NumPy: `pip install numpy`
-* Tkinter
+### 4. Smoothing & Frequency Domain
+- **Spatial Domain:** Lowpass Filtering (Average), Median Filtering.
+- **Frequency Domain (Fourier Transform):**
+  - Ideal Lowpass/Highpass Filter (ILPF/IHPF).
+  - Butterworth Lowpass/Highpass Filter (BLPF/BHPF).
 
-## Instalation
+### 5. Segmentasi & Warna
+- **Konversi Warna:** Grayscale, HSV, YUV, RGB, CMY, YIQ, Binary.
+- **Pseudo Coloring:** Pemetaan warna JET.
+- **Kontur Citra:** Deteksi kontur dengan pemilihan warna Hex kustom.
 
-1. **Clone the Repository**
-   
-   ```
-   git clone https://github.com/AmishiDesai04/image_filter_project.git
-   cd image_filter_project
-   ```
-   
-2. **Install the Required Libraries**
-   
-   ```
-   pip install pillow opencv-python numpy
-   ```
+### 6. Fitur Tambahan (Advanced)
+- **Steganografi (LSB):** Menyembunyikan pesan teks rahasia ke dalam gambar dan membacanya kembali.
+- **Watermarking:** Menambahkan watermark (logo/gambar) dengan dukungan transparansi.
+- **Kompresi:** Simulasi kompresi Lossy (JPEG) dan info Lossless (PNG).
+- **Noise Generator:** Menambahkan Gaussian, Rayleigh, Erlang, Exponential, Uniform, Salt & Pepper noise.
 
-## Usage
+## 🛠️ Teknologi yang Digunakan
 
-1. **Run the Application**
-   ```
-   python final.py
-   ```
-   
-2. **Select an Image:**
-   
-   - From Device: Choose the "Select from your device" option and browse to select an image file.
-   - Capture Image: Choose the "Capture Image" option to use the webcam. Follow the on-screen instructions to capture an image.
-   - Default Image: Choose the "Default Picture" option to use the predefined image.
+* **Python 3.x**
+* **CustomTkinter** (UI Modern)
+* **OpenCV (cv2)** (Pemrosesan Citra)
+* **NumPy** (Operasi Matriks)
+* **Pillow (PIL)** (Manipulasi Gambar untuk GUI)
 
-3. **Apply Filters:** Use the provided buttons to apply different filters to the selected image:
-   
-   * Inverted
-   * Gray Scale
-   * Blur
-   * Sketch
-   * Water Color
-   * Pencil Sketch
-     
+## 🚀 Cara Instalasi & Menjalankan
 
+1.  **Clone Repository ini:**
+    ```bash
+    git clone [https://github.com/username-kamu/nama-repo-kamu.git](https://github.com/username-kamu/nama-repo-kamu.git)
+    cd nama-repo-kamu
+    ```
 
-##
+2.  **Install Library yang Dibutuhkan:**
+    Pastikan kamu sudah menginstall Python, lalu jalankan perintah berikut di terminal:
+    ```bash
+    pip install customtkinter opencv-python numpy pillow
+    ```
 
-Please don't hesitate to offer suggestions, report any issues you encounter, share your feedback, or engage in any other form of communication! Your input is highly valued and appreciated.
+3.  **Jalankan Aplikasi:**
+    ```bash
+    python Project_ImageProccesing_Kelompok2.py
+    ```
 
+## 👥 Tim Pengembang (Kelompok 2)
+
+Proyek ini dikembangkan oleh tim mahasiswa:
+
+* **Andre Alputra**
+* **Ariasyah Ramadhan** - [GitHub](https://github.com/ariasyahramadhan)
+* **Muhammad Ihsanul Dzaki**
+
+## 📺 Tutorial & Demo
+
+Untuk melihat cara penggunaan dan demo aplikasi, silakan kunjungi:
+* [Channel YouTube Ariasyah Ramadhan](https://www.youtube.com/@ariansyahramadhan5145)
+
+## 📄 Lisensi
+
+Proyek ini dibuat untuk tujuan pendidikan dan pembelajaran mata kuliah Pengolahan Citra Digital.
+
+---
+*Dibuat dengan ❤️ menggunakan Python.*
