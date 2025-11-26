@@ -1,0 +1,7 @@
+yang perlu di install :
+* Pillow: `pip install pillow`
+* OpenCV: `pip install opencv-python`
+* NumPy: `pip install numpy`
+* tkinter : pip install tkinter
+* customtkinter pip install customtkinter
+* OpenCV & numpy : pip install pillow opencv-python numpy
