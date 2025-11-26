@@ -77,9 +77,9 @@ Aplikasi ini mencakup berbagai teknik Image Processing (Pengolahan Citra Digital
 
 Proyek ini dikembangkan oleh tim mahasiswa:
 
-* **Andre Alputra**
-* **Ariasyah Ramadhan** - [GitHub](https://github.com/ariasyahramadhan)
-* **Muhammad Ihsanul Dzaki**
+* **Andre Alputra (2307112867)**
+* **Ariasyah Ramadhan (2307135316)** - [GitHub](https://github.com/ariasyahramadhan)
+* **Muhammad Ihsanul Dzaki (2307112432)**
 
 ## 📺 Tutorial & Demo
 
