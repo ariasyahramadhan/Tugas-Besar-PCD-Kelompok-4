@@ -7,7 +7,7 @@
 Aplikasi pemrosesan citra digital berbasis GUI modern yang dikembangkan menggunakan Python. Aplikasi ini menyediakan berbagai fitur manipulasi citra mulai dari operasi dasar, deteksi tepi, filtering domain frekuensi, hingga steganografi dan watermarking.
 
 ![App Screenshot](assets/screenshot.png)
-*(Catatan: Ganti `assets/screenshot.png` dengan screenshot asli aplikasi kamu)*
+
 
 ## 📋 Fitur Utama
 
