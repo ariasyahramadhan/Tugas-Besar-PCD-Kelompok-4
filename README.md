@@ -66,15 +66,7 @@ To run this project, ensure that you have the following software installed:
    * Water Color
    * Pencil Sketch
      
-4. **Exit:** Click the "Exit" button to close the application.
 
-## Application Layout
-
-![image](https://github.com/AmishiDesai04/image_filter_project/assets/170110607/b4e1d297-1c84-46c2-b33e-8fae479e4cac)
-
-## Authors
-
-This project is co-owned by: [@AmishiDesai04](https://www.github.com/AmishiDesai04) [@chahelgupta](https://www.github.com/chahelgupta) [@reneeka](https://www.github.com/reneeka)
 
 ##
 
